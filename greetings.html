@@ -94,7 +94,7 @@
 </div>
         
 
-
+    
 <script>
 function dispalyGreetings(today) {
     let hrs = today.getHours();
@@ -160,9 +160,9 @@ function padZeros(num) {
 function dispalyWidget() {
     let today = new Date();
 
-    dispalyGreetings(today);
-    dispalyDate(today);
-    dispalyClock(today);
+    displayGreetings(today);
+    displayDate(today);
+    displayClock(today);
 
     setTimeout(dispalyWidget, 500);
 }
